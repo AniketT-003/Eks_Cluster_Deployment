@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                 git branch: 'main', url: 'https://github.com/AniketT-003/eks-cluster-deployment-.git'
+                 git branch: 'main', url: 'https://github.com/AniketT-003/Eks_Cluster_Deployment.git'
             }
         }
     
